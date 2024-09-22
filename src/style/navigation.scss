@@ -1,0 +1,16 @@
+.nav-wrapper {
+    display: flex;
+    justify-content:space-between;
+    padding: 30px;
+
+    .left-side{
+        display: flex;
+        
+        .nav-link-wrapper{
+            padding: 15px;
+        }
+    }
+    
+
+
+}

@@ -1,3 +1,6 @@
+@import "./layouts.scss";
+@import "./navigation.scss";
+
 html {
     font-size: 62.5%; // 1rem is 10px
 }
@@ -23,6 +26,9 @@ body {
 
 .app {
     margin-top: 2rem;
-    display: grid;
-    justify-items: center;
+
+    .title {
+        display: grid;
+        justify-items: center;
+    }
 }
