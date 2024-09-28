@@ -16,16 +16,16 @@ export default class NavigationContainer extends Component {
                     <div className='nav-link-wrapper'>
                         <NavLink to="/adopted">Adoptados</NavLink>
                     </div>
-                    <div className='nav-link-wrapper'>
-                        <NavLink to="/about-us">Quienes somos</NavLink>
-                    </div>
+                    
                     <div className='nav-link-wrapper'>
                         <NavLink to="/contact">Contacto</NavLink>
                     </div>
                 </div>
 
                 <div className='right-side'>
-                    Otra cosa
+                <div >
+                        <NavLink to="/auth">Login</NavLink>
+                    </div>
                 </div>
 
             </div>

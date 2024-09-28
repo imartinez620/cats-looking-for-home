@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CatItem from './cat-item';
 
-export default class CatsContainer extends Component {
+export default class CatsAdopted extends Component {
     constructor() {
         super();
 
@@ -10,7 +10,7 @@ export default class CatsContainer extends Component {
     render () {
         return (
             <div>
-                Los gatos van aquí
+                Los gatos adoptados van aquí
                 <CatItem />
             </div>
         );
